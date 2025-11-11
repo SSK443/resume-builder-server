@@ -27,18 +27,7 @@ export const registerUser = async (req, res) => {
       return res.status(400).json({ message: "user already exists" });
     }
 
-//my
-    //     // create new user
-    // const hashedPassword = await bcrypt.hash(password, 10);
 
-    // const newUser = await User.create({
-    //   name,
-    //   email,
-    //   password: hashedPassword,
-    // });
-
-
-    //chat gpt
 
     // create new user
     const newUser = await User.create({

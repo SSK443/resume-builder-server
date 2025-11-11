@@ -6,6 +6,7 @@ import connectDB from "./configs/db.js";
 import resumeRouter from "./routes/resumeRoutes.js";
 import userRouter from "./routes/userRoutes.js";
 import aiRouter from "./routes/aiRoutes.js";
+import testRouter from  "./routes/testRouter.js"
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -24,6 +25,7 @@ app.get("/", (req, res) => {
 app.use("/api/users", userRouter);
 app.use("/api/resumes", resumeRouter);
 app.use("/api/ai", aiRouter);
+app.use("/api",testRouter)
 
 
 app.listen(port, () => {
