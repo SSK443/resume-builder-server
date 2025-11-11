@@ -1,0 +1,11 @@
+# Node
+node_modules/
+.env
+
+# Client build
+client/dist/
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+mongoose cluster:
+
+username:ssk
+password:ssk123
+
+mongburl:mongodb+srv://ssk:ssk123@cluster0.6edeyld.mongodb.net/?appName=Cluster0
